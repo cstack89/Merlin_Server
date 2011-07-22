@@ -16,7 +16,9 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    merlin_server.cpp
+    merlin_server.cpp \
+    terminal_client.cpp
 
 HEADERS += \
-    merlin_server.h
+    merlin_server.h \
+    terminal_client.h
